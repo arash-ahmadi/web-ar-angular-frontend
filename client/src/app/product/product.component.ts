@@ -43,6 +43,7 @@ export class ProductComponent implements OnInit {
   quantity: number;
   showcaseImages: any[] = [];
   loading = false;
+  qrResult: string;
   private sub;
 
   constructor(
@@ -80,7 +81,16 @@ export class ProductComponent implements OnInit {
       this._route.params
       .subscribe(res => {
         this.getProduct(res.industry, res._id);
+        this.getQrCode(res.industry, res._id);
       }) 
+      
+  }
+  getQrCode(industry, id) {
+    this._product.getQrCode({"url": 'http://localhost:5000/api/v1/scanQrCode/'+industry+'/'+id}).subscribe(
+                res=>{
+                    this.qrResult = res.result;
+                }
+            )
   }
 
   getProduct = (industry, id) => {
@@ -97,15 +107,13 @@ export class ProductComponent implements OnInit {
         })
 };
 
-  // addToCart(): void {
-  //   this._cart.addProduct({
-  //     id: this.id,
-  //     price: this.product.price,
-  //     quantity: this.quantity,
-  //     image: this.product.image,
-  //     title: this.product.title,
-  //     maxQuantity: this.product.quantity,
-  //   });
-  // }
+  addToCart(): void {
+    this._cart.addProduct({
+      _id: this.product._id,
+      price: this.product.price,
+      image: this.product.product_image_url,
+      title: this.product.name,
+    });
+  }
   
 }
