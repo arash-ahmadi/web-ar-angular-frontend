@@ -2,69 +2,71 @@
   <div>
     <div class="product-container__image">
       <!-- Single Image -->
-      <swiper [zoom]="true" [slidesPerView]="1" [spaceBetween]="50" [pagination]="true"
+      <!-- <swiper [zoom]="true" [slidesPerView]="1" [spaceBetween]="50" [pagination]="true"
         *ngIf="showcaseImages.length === 0">
         <ng-template swiperSlide [zoom]="true">
           <img src="{{ product.product_image_url }}" alt="`Product image`" />
         </ng-template>
-      </swiper>
-      <div style="text-align: -webkit-center;">
+      </swiper> -->
+      <div style="text-align: -webkit-center; ">
       <model-viewer id="dimension-demo" ar ar-modes="webxr" ar-scale="fixed" camera-orbit="-30deg auto auto"
         max-camera-orbit="auto 100deg auto" shadow-intensity="1" camera-controls src={{product.src}} ios-src={{product.ios_src}}
-        alt="A 3D model of an armchair." poster={{product.product_image_url}} loading="lazy"
-        style=" width: 400px; height: 300px;">
+        alt="" poster={{product.product_image_url}} loading="lazy"
+        style=" width: 400px; height: 300px;" >
 
        
       </model-viewer>
-      </div>
+      
       <!-- Multiple images -->
-      <swiper [zoom]="true" [slidesPerView]="1" [spaceBetween]="50" [pagination]="true"
+      <!-- <swiper [zoom]="true" [slidesPerView]="1" [spaceBetween]="50" [pagination]="true"
         *ngIf="showcaseImages.length > 0">
         <ng-template swiperSlide [zoom]="true" *ngFor="let image of showcaseImages; index as i">
           <img src="{{ image }}" alt="`Product image`" />
         </ng-template>
-      </swiper>
+      </swiper> -->
+      <div class="product-container__details" style="float: right; ">
+        <h2 class="title">{{ product.name }}</h2>
+        <div class="reviews">
+          <div class="rating">
+            <i nz-icon nzType="star" nzTheme="fill"></i>
+            <i nz-icon nzType="star" nzTheme="fill"></i>
+            <i nz-icon nzType="star" nzTheme="fill"></i>
+            <i nz-icon nzType="star" nzTheme="fill"></i>
+            <i nz-icon nzType="star"></i>
+          </div>
+          <span class="review-link">10 Review(s) |
+            <span style="cursor: pointer">Add your review</span></span>
+        </div>
+        <div class="price-container">
+          <h2 class="price">{{ product.price | currency: "USD" }}</h2>
+          <span class="availability" [ngStyle]="{ color: quantity > 100 ? 'inherit' : 'red' }">{{ quantity === 0 ? "Out of
+            stock" : "In stock" }}</span>
+        </div>
+        <div class="description">{{ product.description }}</div>
+        <div class="cta">
+          <div class="add-to-cart">
+            <span>QTY:</span>
+           
+            <nz-input-number [(ngModel)]="quantity" [nzMin]="product.quantity > 0 ? 1 : 0"
+              [nzMax]="product.quantity > -100 ? product.quantity : 0" [nzStep]="1"></nz-input-number>
+            <button nz-button nzType="primary" (click)="addToCart()" [disabled]="quantity === 0">
+              Add to cart
+            </button>
+          </div>
+          <div class="category">
+            <span>Category: </span> {{ product.category }}
+          </div>
+          <div class="social-links">
+            <span>Share: </span>
+            <i nz-icon nzType="facebook" nzTheme="outline"></i>
+            <i nz-icon nzType="twitter" nzTheme="outline"></i>
+            <i nz-icon nzType="google-plus" nzTheme="outline"></i>
+            <i nz-icon nzType="mail" nzTheme="outline"></i>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="product-container__details">
-      <h2 class="title">{{ product.name }}</h2>
-      <div class="reviews">
-        <div class="rating">
-          <i nz-icon nzType="star" nzTheme="fill"></i>
-          <i nz-icon nzType="star" nzTheme="fill"></i>
-          <i nz-icon nzType="star" nzTheme="fill"></i>
-          <i nz-icon nzType="star" nzTheme="fill"></i>
-          <i nz-icon nzType="star"></i>
-        </div>
-        <span class="review-link">10 Review(s) |
-          <span style="cursor: pointer">Add your review</span></span>
-      </div>
-      <div class="price-container">
-        <h2 class="price">{{ product.price | currency: "USD" }}</h2>
-        <span class="availability" [ngStyle]="{ color: quantity > 0 ? 'inherit' : 'red' }">{{ quantity === 0 ? "Out of
-          stock" : "In stock" }}</span>
-      </div>
-      <div class="description">{{ product.description }}</div>
-      <div class="cta">
-        <div class="add-to-cart">
-          <span>QTY:</span>
-          <nz-input-number [(ngModel)]="quantity" [nzMin]="product.quantity > 0 ? 1 : 0"
-            [nzMax]="product.quantity > 0 ? product.quantity : 0" [nzStep]="1"></nz-input-number>
-          <button nz-button nzType="primary" (click)="addToCart()" [disabled]="quantity === 0">
-            Add to cart
-          </button>
-        </div>
-        <div class="category">
-          <span>Category: </span> {{ product.category }}
-        </div>
-        <div class="social-links">
-          <span>Share: </span>
-          <i nz-icon nzType="facebook" nzTheme="outline"></i>
-          <i nz-icon nzType="twitter" nzTheme="outline"></i>
-          <i nz-icon nzType="google-plus" nzTheme="outline"></i>
-          <i nz-icon nzType="mail" nzTheme="outline"></i>
-        </div>
-      </div>
-    </div>
+  </div>
   </div>
   <div class="additional"></div>
 </div>
