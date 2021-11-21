@@ -1,5 +1,5 @@
 <div class="product-card">
-  <div class="product-card__image" [routerLink]="['product', industry ,_id]">
+  <div class="product-card__image" routerLink="/product/{{industry}}/{{_id}}">
     <img src="{{ product_image_url }}" alt=""  />
   </div>
   <div class="product-card__info">

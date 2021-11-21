@@ -40,7 +40,7 @@ exports.createOrder = async (params) => {
                       `UPDATE products SET quantity = ${productQuantity} WHERE id = ${prod.id}`,
                       (err, result) => {
                         if (err) reject({ message: err, statusCode: 500 });
-                        console.log(result);
+                        // console.log(result);
                       }
                     );
                   }

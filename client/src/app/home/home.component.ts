@@ -126,7 +126,7 @@ export class HomeComponent implements OnInit {
             this.sub = this.productService.getProducts(query).subscribe(
         res=>{
           this.products=res.Product;
-          console.log(this.products)
+          // console.log(this.products)
         })
         }
     };
@@ -141,7 +141,7 @@ export class HomeComponent implements OnInit {
         else{
             this.industry = "Furniture" 
         }
-        
+        console.log(this.industry)
     })
 }
 }
@@ -158,5 +158,11 @@ getCategory(){
         
     })
 }
+}
+industrySelect(industry){
+  console.log("inside industry select")
+  this.industry = industry;
+  this.getCategory()
+  this.load()
 }
 }

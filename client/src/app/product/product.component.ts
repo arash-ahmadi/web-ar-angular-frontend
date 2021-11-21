@@ -93,7 +93,7 @@ export class ProductComponent implements OnInit {
         res=>{
           this.product = res.Product
           this.loading = false
-          console.log(this.product)
+          // console.log(this.product)
         })
 };
 

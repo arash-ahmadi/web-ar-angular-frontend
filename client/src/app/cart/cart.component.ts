@@ -19,7 +19,7 @@ export class CartComponent implements OnInit {
   ngOnInit(): void {}
 
   updateCart(id: number, quantity: number): void {
-    console.log({ id, quantity });
+    // console.log({ id, quantity });
     this._cart.updateCart(id, quantity);
   }
 

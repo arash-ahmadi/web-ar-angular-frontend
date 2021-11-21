@@ -7,7 +7,7 @@
       <swiper  [zoom]="false" [slidesPerView]="screenWidth > 1200 ? 3 : 1" [spaceBetween]="30" [pagination]="true"
         [loop]="true">
          <ng-template swiperSlide *ngFor="let c of categories">
-          <a (click)="industrySelect(c.industry)">
+          <a routerLInk="/product/{{c.name}}" (click)="industrySelect(c.name)">
             <div class="category-card" style="background:url({{c.img}}); width:100%;">{{ c.name }}</div>
           </a>
           
