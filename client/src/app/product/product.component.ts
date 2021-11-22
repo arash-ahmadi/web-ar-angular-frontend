@@ -45,6 +45,9 @@ export class ProductComponent implements OnInit {
   loading = false;
   qrResult: string;
   private sub;
+  displayStyle = "none";
+  
+  
 
   constructor(
     private _route: ActivatedRoute,
@@ -114,6 +117,12 @@ export class ProductComponent implements OnInit {
       image: this.product.product_image_url,
       title: this.product.name,
     });
+  }
+  openPopup() {
+    this.displayStyle = "block";
+  }
+  closePopup() {
+    this.displayStyle = "none";
   }
   
 }
