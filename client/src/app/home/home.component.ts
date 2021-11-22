@@ -160,7 +160,6 @@ getCategory(){
 }
 }
 industrySelect(industry){
-  console.log("inside industry select")
   this.industry = industry;
   this.getCategory()
   this.load()
