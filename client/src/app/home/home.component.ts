@@ -22,7 +22,7 @@ export class HomeComponent implements OnInit {
   industry:string;
     category:string;
     private sub;
-
+  subCategories: any[]
   categories: any[] = [
     {
       name: 'Furniture',
@@ -38,7 +38,7 @@ export class HomeComponent implements OnInit {
       name: 'Machinery',
       img: '../../assets/machinery_industry.jpg',
       industry: 'machinery'
-    },
+    }
     
   ];
   
@@ -159,9 +159,21 @@ getCategory(){
     })
 }
 }
-industrySelect(industry){
+getCategoriesByIndustry(industry){
+  this.sub = this.productService.getProducts('http://localhost:5000/api/v1/'+this.industry+'/getAllCategories').subscribe(
+    res=>{
+      this.subCategories=res.categories;
+      
+    })
+}
+industrySelect(industry,category){
   this.industry = industry;
-  this.getCategory()
+  this.category = category;
+  this.getCategoriesByIndustry(industry)
+  this.load()
+}
+categorySelect(category){
+  this.category = category;
   this.load()
 }
 }
