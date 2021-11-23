@@ -1,77 +1,27 @@
-# Angular Ecommerce Web App
+# Client
 
-I made this project to learn and understand the basics of both Angular and MySQL. It was not fun at first but once I got the hang of it it was quite pleasant. In addition to Angular and MySQL, this project is built using Ant Design for its UI and SwiperJS for its carousels. The backend is built using Node.js, Express.js, Joi for input validation, and JWT for authentication. I did want to provide a demo link for now there will be instructions on how to set up this project on your local machine.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.6.
 
-<br/>
+## Development server
 
-![](1.gif)
-![](2.gif)
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Functionality
+## Code scaffolding
 
-The application allows you to browse the home page for products, check out each of the details of the product and add them to your cart for a later checkout.
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-Adding products to your cart will make a notification pop up and indicate that the product was added successfully.
+## Build
 
-You are able to see a preview of the cart on the top bar or even navigate into a more detailed cart page.
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-The checkout process is a multi-page form that at the end allows you to place an order that will later be shown on the order history page.
+## Running unit tests
 
-<br/>
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Getting Started
+## Running end-to-end tests
 
-The app can be installed by cloning the git repository
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-```
-git clone https://github.com/michaelparkadze/angular-ecommerce-app.git folder-name
-```
+## Further help
 
-Then cd into both directories and run npm install
-
-```
-cd folder-name
-cd backend
-npm run install
-cd.. // return to folder-name
-cd client
-npm run install
-```
-
-<br/>
-
-After the entire installation you need to run the server and the client by running this commands each in its own directory
-
-**backend**
-
-```
-npm run dev
-```
-
-**client**
-
-```
-ng serve
-```
-
-<br/>
-
-## Prerequisites
-
-You will need to have node and npm installed. In addition you will need a MySQL server running in order to have full functionality of the application
-
-<br/>
-
-## Environment Variables
-
-Create a folder called env in the root of the backend directory and create a development.env file.
-
-**Change DB variables to match your MySQL setup**
-
-```
-PORT=5000
-DB_HOST='localhost'
-DB_USER='root'
-DB_PASSWORD=''
-DB_NAME='myapp'
-```
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
