@@ -106,7 +106,7 @@ export class HomeComponent implements OnInit {
     }, 500);
   }
   load = () => {
-    //    this.sub = this.productService.getProducts('http://business-and-retail-web-ar.herokuapp.com/api/v1/Furniture/getAll')
+    //    this.sub = this.productService.getProducts('https://business-and-retail-web-ar.herokuapp.com/api/v1/Furniture/getAll')
     //         .subscribe(res => {
     //             this.products = res.Products;     
     //             console.log(this.products)    
@@ -114,14 +114,14 @@ export class HomeComponent implements OnInit {
     if(this.category == "all")
 {   
     console.log("inside if")
-    this.sub = this.productService.getProducts('http://business-and-retail-web-ar.herokuapp.com/api/v1/'+this.industry+'/getAll').subscribe(
+    this.sub = this.productService.getProducts('https://business-and-retail-web-ar.herokuapp.com/api/v1/'+this.industry+'/getAll').subscribe(
         res=>{
           this.products=res.Products;
           
         })}
         else{
             console.log("inside else")
-            var query = 'http://business-and-retail-web-ar.herokuapp.com/api/v1/'+this.industry+'/'+this.category+'/getAll'
+            var query = 'https://business-and-retail-web-ar.herokuapp.com/api/v1/'+this.industry+'/'+this.category+'/getAll'
             console.log(query)
             this.sub = this.productService.getProducts(query).subscribe(
         res=>{
@@ -160,7 +160,7 @@ getCategory(){
 }
 }
 getCategoriesByIndustry(industry){
-  this.sub = this.productService.getProducts('http://business-and-retail-web-ar.herokuapp.com/api/v1/'+this.industry+'/getAllCategories').subscribe(
+  this.sub = this.productService.getProducts('https://business-and-retail-web-ar.herokuapp.com/api/v1/'+this.industry+'/getAllCategories').subscribe(
     res=>{
       this.subCategories=res.categories;
       

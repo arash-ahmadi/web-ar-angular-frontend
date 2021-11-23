@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  apiUrl: 'http://business-and-retail-web-ar.herokuapp.com/api/v1/',
+  apiUrl: 'https://business-and-retail-web-ar.herokuapp.com/api/v1/',
 };
 
 /*

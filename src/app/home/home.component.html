@@ -18,12 +18,13 @@
     <div class="categories__header">
       <h2>Categories</h2>
     </div>
-    <div class="categories__list">
-      <swiper  [zoom]="false" [slidesPerView]="screenWidth > 1200 ? 3 : 1" [spaceBetween]="30" [pagination]="true"
+    <div class="categories__list2">
+      <swiper  [zoom]="false" [slidesPerView]="screenWidth > 1200 ? 8 : 4" [spaceBetween]="25" [pagination]="true"
         [loop]="false">
          <ng-template swiperSlide *ngFor="let c of subCategories">
           <a (click)="categorySelect(c)">
-            <div class="category-card" style="background:url({{c.img}}); width:100%;">{{ c }}</div>
+           <div style="background-color: aliceblue;"> <div class="category-card2" style="background:url('https://tulanedigcontent.blob.core.windows.net/dummy/mq.png'); width:100%;"></div></div>
+            <div class="category">{{c}}</div>
           </a>
           
         </ng-template>

@@ -30,7 +30,7 @@ export class ProductService {
   public getProducts(endpoint: string) : Observable<any>{
     return this.http.get<any>(endpoint); 
    }
-   getQrCodeEndpoint : string ='http://business-and-retail-web-ar.herokuapp.com/api/v1/makeQrCode';
+   getQrCodeEndpoint : string ='https://business-and-retail-web-ar.herokuapp.com/api/v1/makeQrCode';
    public getQrCode(body: any) : Observable<any> {
     return this.http.post<any>(this.getQrCodeEndpoint, body);
   }
