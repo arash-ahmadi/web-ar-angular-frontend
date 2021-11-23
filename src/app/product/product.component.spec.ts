@@ -22,15 +22,5 @@ describe('ProductComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
-  openPopup() {
-
-    this.displayStyle = "block";
-
-  }
-
-  closePopup() {
-
-    this.displayStyle = "none";
-
-  }
+  
 });

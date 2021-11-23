@@ -7,7 +7,7 @@ import { map } from 'rxjs/operators';
   providedIn: 'root',
 })
 export class ApiService {
-  private baseUrl = environment.apiUrl;
+  private baseUrl: any;
 
   constructor(private _http: HttpClient) {}
 
