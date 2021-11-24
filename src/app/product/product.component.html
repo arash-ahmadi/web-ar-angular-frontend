@@ -13,11 +13,15 @@
           <model-viewer id="dimension-demo" ar ar-modes="webxr" ar-scale="fixed" camera-orbit="-30deg auto auto"
           max-camera-orbit="auto 100deg auto" shadow-intensity="1" camera-controls src={{product.src}}
           ios-src={{product.ios_src}} alt="" poster={{product.product_image_url}} loading="lazy"
-          style=" width: 600px; height: 450px;">
-          <button class="btn-dark" (click)="openPopup()" style="vertical-align: middle;">
-            <!-- <i class="fa fa-qrcode" style="font-size: 30px;"></i> -->
-            <div> View in AR</div>
+          style=" width: 600px; height: 450px; position: relative;">
+          <button class="btn btn-sm btn-outline-primary" style="position: absolute;bottom: 0%;"
+          (click)="open(content)">
+          View in AR
           </button>
+          <!-- <button class="btn-dark" (click)="openPopup()" style="vertical-align: middle;">
+           
+            <div> View in AR</div>
+          </button> -->
         </model-viewer>
         </div>
         <div class="col-md-6">
@@ -75,8 +79,7 @@
   </div>
   <div class="additional"></div>
 </div>
-<div class="modal" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true" [ngStyle]="{'display':displayStyle}">
-
+<!-- <div class="modal" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true" [ngStyle]="{'display':displayStyle}">
   <div class="modal-dialog modal-dialog-centered" role="document">
 
     <div class="modal-content" style="text-align: center;">
@@ -110,4 +113,25 @@
 
   </div>
 
-</div>
+</div> -->
+
+<ng-template class="modal-dialog-centered" #content let-modal>
+  <div class="modal-header" style="border-bottom: 0px !important;">
+      <h2 class="modal-title" 
+          id="modal-basic-title" style="font-size: 15px">
+          Scan the QR code to view in your space
+      </h2>
+      <button type="button" class="close btn-close"
+              aria-label="Close" (click)=
+              "modal.dismiss('Cross click')">
+
+          <!-- <span aria-hidden="true">
+              ×
+          </span> -->
+      </button>
+  </div>
+  <div class="modal-body" style="text-align: center">
+    <img  src={{qrResult}} />
+  </div>
+</ng-template>
+
