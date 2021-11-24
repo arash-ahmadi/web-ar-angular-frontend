@@ -16,7 +16,7 @@
         background-color: #fff;
       }
       .category-card {
-        height: 150px;
+        // height: 150px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -34,7 +34,7 @@
     &__list2 {
       // just for categories
       .swiper-pagination-bullet-active {
-        background-color:aliceblue;
+        background-color:black;
       }
       .category-card2 {
         height: 80px;
@@ -66,6 +66,7 @@
       }
     }
   }
+  
   .category-name{
     text-transform: uppercase;
     font-weight: 300;
@@ -123,7 +124,7 @@
       padding: 36px 24px;
       &__list {
         .category-card {
-          height: 200px;
+          // height: 400px;
         }
       }
     }

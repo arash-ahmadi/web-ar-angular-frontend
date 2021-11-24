@@ -1,28 +1,26 @@
 <div class="home-container">
   <div class="categories">
-    <div class="categories__header">
+    <!-- <div class="categories__header">
       <h2>Industries</h2>
-    </div>
-    <div class="categories__list">
-      <swiper  [zoom]="false" [slidesPerView]="screenWidth > 1200 ? 3 : 1" [spaceBetween]="30" [pagination]="true"
+    </div> -->
+    <div class="categories__list" >
+      <swiper  [zoom]="false" [slidesPerView]="(screenWidth > 1200) && showCategory ? 3 : 1" [spaceBetween]="30" [pagination]="true"
         [loop]="false">
          <ng-template swiperSlide *ngFor="let c of categories">
           <a (click)="industrySelect(c.name,'all')">
-            <div class="category-card" style="background:url({{c.img}}); width:100%;">{{ c.name }}</div>
+            <div class="category-card" style="background:url({{c.img}}); width:100%;" [ngStyle]="{'height': (screenWidth > 1200) && !showCategory ? '425px' : !showCategory ? '625px' : '150px'}" >{{ c.name }}</div>
           </a>
           
         </ng-template>
       </swiper>
     </div>
     <div id="subcategories" style="display: block;">
-    <div class="categories__header">
-      <h2>Categories</h2>
-    </div>
-    <div class="categories__list2">
+
+    <div class="categories__list2" style="margin-top: 30px;">
       <swiper  [zoom]="false" [slidesPerView]="screenWidth > 1200 ? 10 : 3" [spaceBetween]="25" [pagination]="true"
         [loop]="false">
          <ng-template swiperSlide *ngFor="let c of subCategories">
-          <a (click)="categorySelect(c.name)">
+          <a (click)="categorySelect(c.name)" style="text-align: center;">
            <div style="background-color:	white;"> <div class="category-card2" style="background:url({{c.img}}); width:100%;"></div></div>
             <div class="category-name">{{c.name}}</div>
           </a>
@@ -32,9 +30,9 @@
     </div>
   </div>
   </div>
-  <div class="products">
+  <div class="products" *ngIf = showCategory>
     <div class="products__header">
-      <h2>New Products</h2>
+      <h2>Products</h2>
     </div>
     <div *ngIf="loading" class="products__loading">
       <ng-template #indicatorTemplate>
@@ -65,15 +63,5 @@
       </app-product-card>
       
     </div>
-  </div>
-  <div class="load-products">
-    <button
-      nz-button
-      (click)="showMoreProducts()"
-      [nzLoading]="additionalLoading"
-      
-    >
-      Show more
-    </button>
   </div>
 </div>

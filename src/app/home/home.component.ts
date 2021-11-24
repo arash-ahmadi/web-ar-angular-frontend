@@ -22,6 +22,7 @@ export class HomeComponent implements OnInit {
   industry:string;
     category:string;
     private sub;
+    showCategory:any = false;
   subCategories: any[]
   categories: any[] = [
     {
@@ -161,6 +162,7 @@ export class HomeComponent implements OnInit {
     }, 500);
 
     //Hack Products API Call
+    this.showCategory = false;
     this.getIndustry()
     this.getCategory()
     this.load() 
@@ -253,6 +255,7 @@ industrySelect(industry,category){
   this.industry = industry;
   this.category = category;
   this.getCategoriesByIndustry(industry)
+  this.showCategory = true;
   this.load()
 }
 categorySelect(category){

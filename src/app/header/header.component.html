@@ -16,22 +16,17 @@
     </button>
   </div>
   <div class="header-container__middle">
-    <h3 routerLink="/">Eccom</h3>
+    <h3 routerLink="/">Web AR</h3>
   </div>
   <div class="header-container__right">
     <ng-container>
-      <div class="cart-counter">{{ cartData.products.length }}</div>
       <button
         nz-button
         nz-dropdown
         nzType="text"
-        nzTrigger="click"
         nzPlacement="right"
         nzShape="circle"
         nzSize="large"
-        [nzDropdownMenu]="menu"
-        [nzVisible]="dropdownVisible"
-        (nzVisibleChange)="toggleDropdown()"
       >
         <i
           nz-icon
@@ -142,38 +137,17 @@
 <div [className]="isMenuOpen ? 'side-menu show' : 'side-menu'">
   <i nz-icon nzType="close" nzTheme="outline" (click)="toggleMenu()"></i>
   <div class="side-menu__content">
-    <h2 routerLink="/" (click)="toggleMenu()">Eccom</h2>
+    <h2 routerLink="/" (click)="toggleMenu()">Web AR</h2>
     <nav>
       <ul>
         <li routerLink="/" (click)="toggleMenu()">Home</li>
-        <li routerLink="/cart" (click)="toggleMenu()">Cart</li>
-        <li routerLink="/profile" (click)="toggleMenu()">Profile</li>
-        <li routerLink="/order-history" (click)="toggleMenu()">
+        <li  >Cart</li>
+        <li  >Profile</li>
+        <li >
           Order History
         </li>
       </ul>
     </nav>
-    <div class="🍑">
-      <button
-        nz-button
-        routerLink="/login"
-        (click)="toggleMenu()"
-        *ngIf="!isLoggedIn"
-      >
-        Sign in
-      </button>
-      <button
-        nz-button
-        routerLink="/register"
-        (click)="toggleMenu()"
-        *ngIf="!isLoggedIn"
-      >
-        Sign up
-      </button>
-      <button nz-button (click)="logout() && toggleMenu()" *ngIf="isLoggedIn">
-        Sign out
-      </button>
-    </div>
   </div>
 </div>
 
