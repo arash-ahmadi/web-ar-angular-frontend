@@ -252,10 +252,11 @@ getCategoriesByIndustry(industry){
     }
 }
 industrySelect(industry,category){
+  this.showCategory = true;
   this.industry = industry;
   this.category = category;
   this.getCategoriesByIndustry(industry)
-  this.showCategory = true;
+ 
   this.load()
 }
 categorySelect(category){
