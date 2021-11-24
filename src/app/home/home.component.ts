@@ -204,7 +204,7 @@ export class HomeComponent implements OnInit {
             console.log(query)
             this.sub = this.productService.getProducts(query).subscribe(
         res=>{
-          this.products=res.Product;
+          this.products=res.Products;
           // console.log(this.products)
         })
         }
