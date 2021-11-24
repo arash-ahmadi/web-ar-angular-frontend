@@ -37,7 +37,8 @@
         background-color:aliceblue;
       }
       .category-card2 {
-        height: 100px;
+        height: 80px;
+        width: 80px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -49,8 +50,30 @@
         color: #fff;
         background-size:cover !important; 
         cursor: pointer;
+        transform:scale(0.9);
+        -ms-transform:scale(0.9); /* IE 9 */
+        -moz-transform:scale(0.9); /* Firefox */
+        -webkit-transform:scale(0.9); /* Safari and Chrome */
+        -o-transform:scale(0.9);
+        transition: transform .2s;
+      }
+      .category-card2:hover{
+        transform:scale(1);
+        -ms-transform:scale(1); /* IE 9 */
+        -moz-transform:scale(1); /* Firefox */
+        -webkit-transform:scale(1); /* Safari and Chrome */
+        -o-transform:scale(1);
       }
     }
+  }
+  .category-name{
+    text-transform: uppercase;
+    font-weight: 300;
+    justify-content: center;
+    letter-spacing: 2px;
+    align-items: center;
+    color: #000;
+    align-content: center;
   }
   .swiper-button-next { color: white; }
   .swiper-button-prev { color: white; }

@@ -41,6 +41,85 @@ export class HomeComponent implements OnInit {
     }
     
   ];
+
+  subCategoriesFashion: any[] = [
+    {
+      name: 'Footwear',
+      img: 'https://tulanedigcontent.blob.core.windows.net/web-ar-demo/icons/footwear.png'
+    },
+    {
+      name: 'Handbags',
+      img: 'https://tulanedigcontent.blob.core.windows.net/web-ar-demo/icons/handbags.png'
+    },
+    {
+      name: 'Menswear',
+      img: 'https://tulanedigcontent.blob.core.windows.net/web-ar-demo/icons/menswear.png'
+    },
+    {
+      name: 'Womenswear',
+      img: 'https://tulanedigcontent.blob.core.windows.net/web-ar-demo/icons/womenswear.png'
+    },
+  ]
+
+  subCategoriesFurniture: any[] = [
+    {
+      name: 'Rack',
+      img: 'https://tulanedigcontent.blob.core.windows.net/web-ar-demo/icons/rack.png'
+  },
+  {
+      name: 'Sofa',
+      img: 'https://tulanedigcontent.blob.core.windows.net/web-ar-demo/icons/sofa.png'
+  },
+  {
+      name: 'Set',
+      img: 'https://tulanedigcontent.blob.core.windows.net/web-ar-demo/icons/set.png'
+  },
+  {
+      name: 'Cubicle',
+      img: 'https://tulanedigcontent.blob.core.windows.net/web-ar-demo/icons/cubicle.png'
+  },
+  {
+      name: 'Table',
+      img: 'https://tulanedigcontent.blob.core.windows.net/web-ar-demo/icons/table.png'
+  },
+  {
+      name: 'Chair',
+      img: 'https://tulanedigcontent.blob.core.windows.net/web-ar-demo/icons/chair.png'
+  },
+  {
+      name: 'Lounge',
+      img: 'https://tulanedigcontent.blob.core.windows.net/web-ar-demo/icons/lounge.png'
+  },
+  {
+      name: 'Large Seater',
+      img: 'https://tulanedigcontent.blob.core.windows.net/web-ar-demo/icons/large-seater.png'
+  },
+  {
+      name: 'Lamp',
+      img: 'https://tulanedigcontent.blob.core.windows.net/web-ar-demo/icons/lamp.png'
+  },
+  {
+      name: 'Hearth',
+      img: 'https://tulanedigcontent.blob.core.windows.net/web-ar-demo/icons/hearth.png'
+  },
+  {
+      name: 'Living Room',
+      img: 'https://tulanedigcontent.blob.core.windows.net/web-ar-demo/icons/living-room.png'
+  },
+  {
+      name: 'Mood Board',
+      img: 'https://tulanedigcontent.blob.core.windows.net/web-ar-demo/icons/mood-board.png'
+  }
+  ]
+
+  subCategoriesMachinery: any[] = [
+    
+      {
+        name: 'Printer',
+        img: 'https://tulanedigcontent.blob.core.windows.net/web-ar-demo/icons/printer.png'
+      }
+    
+  ]
   
   loading = false;
   productPageCounter = 1;
@@ -160,11 +239,15 @@ getCategory(){
 }
 }
 getCategoriesByIndustry(industry){
-  this.sub = this.productService.getProducts('https://business-and-retail-web-ar.herokuapp.com/api/v1/'+this.industry+'/getAllCategories').subscribe(
-    res=>{
-      this.subCategories=res.categories;
-      
-    })
+  if(industry == "Fashion"){
+      this.subCategories=this.subCategoriesFashion;   
+    }
+    else if (industry =="Furniture"){
+      this.subCategories=this.subCategoriesFurniture;
+    }
+    else if (industry =="Machinery"){
+      this.subCategories=this.subCategoriesMachinery;
+    }
 }
 industrySelect(industry,category){
   this.industry = industry;
