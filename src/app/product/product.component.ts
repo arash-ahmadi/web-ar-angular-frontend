@@ -3,6 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { ProductService } from '../services/product.service';
 import { map } from 'rxjs/operators';
+import {NgbModal, ModalDismissReasons} from '@ng-bootstrap/ng-bootstrap';
 
 // import Swiper core and required components
 import SwiperCore, {
@@ -46,11 +47,13 @@ export class ProductComponent implements OnInit {
   qrResult: string;
   private sub;
   displayStyle = "none";
+  closeResult = '';
 
   constructor(
     private _route: ActivatedRoute,
     private _product: ProductService,
-    private _cart: CartService
+    private _cart: CartService,
+    private modalService: NgbModal
   ) {}
 
   ngOnInit(): void {
@@ -126,5 +129,25 @@ export class ProductComponent implements OnInit {
 
     this.displayStyle = "none";
 
+  }
+
+  open(content) {
+    this.modalService.open(content,
+   {ariaLabelledBy: 'modal-basic-title'}).result.then((result) => {
+      this.closeResult = `Closed with: ${result}`;
+    }, (reason) => {
+      this.closeResult = 
+         `Dismissed ${this.getDismissReason(reason)}`;
+    });
+  }
+  
+  private getDismissReason(reason: any): string {
+    if (reason === ModalDismissReasons.ESC) {
+      return 'by pressing ESC';
+    } else if (reason === ModalDismissReasons.BACKDROP_CLICK) {
+      return 'by clicking on a backdrop';
+    } else {
+      return `with: ${reason}`;
+    }
   }
 }
