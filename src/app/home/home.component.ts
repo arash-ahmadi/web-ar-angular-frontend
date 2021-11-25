@@ -27,17 +27,17 @@ export class HomeComponent implements OnInit {
   categories: any[] = [
     {
       name: 'Furniture',
-      img: 'https://tulanedigcontent.blob.core.windows.net/web-ar-demo/icons/furniture_industry.jpg',
+      img: 'https://arasset.azureedge.net/webar/icons/furniture_industry.jpg',
       industry: 'furniture'
     },
     {
       name: 'Fashion',
-      img: 'https://tulanedigcontent.blob.core.windows.net/web-ar-demo/icons/fashion_industry.jpg',
+      img: 'https://arasset.azureedge.net/webar/icons/fashion_industry.jpg',
       industry: 'fashion'
     },
     {
       name: 'Machinery',
-      img: 'https://tulanedigcontent.blob.core.windows.net/web-ar-demo/icons/machinery_industry.jpg',
+      img: 'https://arasset.azureedge.net/webar/icons/machinery_industry.jpg',
       industry: 'machinery'
     }
     
@@ -46,70 +46,70 @@ export class HomeComponent implements OnInit {
   subCategoriesFashion: any[] = [
     {
       name: 'Footwear',
-      img: 'https://tulanedigcontent.blob.core.windows.net/web-ar-demo/icons/footwear.png'
+      img: 'https://arasset.azureedge.net/webar/icons/footwear.png'
     },
     {
       name: 'Handbags',
-      img: 'https://tulanedigcontent.blob.core.windows.net/web-ar-demo/icons/handbags.png'
+      img: 'https://arasset.azureedge.net/webar/icons/handbags.png'
     },
     {
       name: 'Menswear',
-      img: 'https://tulanedigcontent.blob.core.windows.net/web-ar-demo/icons/menswear.png'
+      img: 'https://arasset.azureedge.net/webar/icons/menswear.png'
     },
     {
       name: 'Womenswear',
-      img: 'https://tulanedigcontent.blob.core.windows.net/web-ar-demo/icons/womenswear.png'
+      img: 'https://arasset.azureedge.net/webar/icons/womenswear.png'
     },
   ]
 
   subCategoriesFurniture: any[] = [
     {
       name: 'Rack',
-      img: 'https://tulanedigcontent.blob.core.windows.net/web-ar-demo/icons/rack.png'
+      img: 'https://arasset.azureedge.net/webar/icons/rack.png'
   },
   {
       name: 'Sofa',
-      img: 'https://tulanedigcontent.blob.core.windows.net/web-ar-demo/icons/sofa.png'
+      img: 'https://arasset.azureedge.net/webar/icons/sofa.png'
   },
   {
       name: 'Set',
-      img: 'https://tulanedigcontent.blob.core.windows.net/web-ar-demo/icons/set.png'
+      img: 'https://arasset.azureedge.net/webar/icons/set.png'
   },
   {
       name: 'Cubicle',
-      img: 'https://tulanedigcontent.blob.core.windows.net/web-ar-demo/icons/cubicle.png'
+      img: 'https://arasset.azureedge.net/webar/icons/cubicle.png'
   },
   {
       name: 'Table',
-      img: 'https://tulanedigcontent.blob.core.windows.net/web-ar-demo/icons/table.png'
+      img: 'https://arasset.azureedge.net/webar/icons/table.png'
   },
   {
       name: 'Chair',
-      img: 'https://tulanedigcontent.blob.core.windows.net/web-ar-demo/icons/chair.png'
+      img: 'https://arasset.azureedge.net/webar/icons/chair.png'
   },
   {
       name: 'Lounge',
-      img: 'https://tulanedigcontent.blob.core.windows.net/web-ar-demo/icons/lounge.png'
+      img: 'https://arasset.azureedge.net/webar/icons/lounge.png'
   },
   {
       name: 'Large Seater',
-      img: 'https://tulanedigcontent.blob.core.windows.net/web-ar-demo/icons/large-seater.png'
+      img: 'https://arasset.azureedge.net/webar/icons/large-seater.png'
   },
   {
       name: 'Lamp',
-      img: 'https://tulanedigcontent.blob.core.windows.net/web-ar-demo/icons/lamp.png'
+      img: 'https://arasset.azureedge.net/webar/icons/lamp.png'
   },
   {
       name: 'Hearth',
-      img: 'https://tulanedigcontent.blob.core.windows.net/web-ar-demo/icons/hearth.png'
+      img: 'https://arasset.azureedge.net/webar/icons/hearth.png'
   },
   {
       name: 'Living Room',
-      img: 'https://tulanedigcontent.blob.core.windows.net/web-ar-demo/icons/living-room.png'
+      img: 'https://arasset.azureedge.net/webar/icons/living-room.png'
   },
   {
       name: 'Mood Board',
-      img: 'https://tulanedigcontent.blob.core.windows.net/web-ar-demo/icons/mood-board.png'
+      img: 'https://arasset.azureedge.net/webar/icons/mood-board.png'
   }
   ]
 
@@ -117,7 +117,7 @@ export class HomeComponent implements OnInit {
     
       {
         name: 'Printer',
-        img: 'https://tulanedigcontent.blob.core.windows.net/web-ar-demo/icons/printer.png'
+        img: 'https://arasset.azureedge.net/webar/icons/printer.png'
       }
     
   ]
@@ -162,10 +162,12 @@ export class HomeComponent implements OnInit {
     }, 500);
 
     //Hack Products API Call
+    this.subCategories = this.subCategoriesFurniture 
     this.showCategory = false;
     this.getIndustry()
     this.getCategory()
     this.load() 
+    
    
   }
 
@@ -187,7 +189,7 @@ export class HomeComponent implements OnInit {
     }, 500);
   }
   load = () => {
-    //    this.sub = this.productService.getProducts('https://business-and-retail-web-ar.herokuapp.com/api/v1/Furniture/getAll')
+    //    this.sub = this.productService.getProducts('https://webarbackend.azurewebsites.net/api/v1/Furniture/getAll')
     //         .subscribe(res => {
     //             this.products = res.Products;     
     //             console.log(this.products)    
@@ -195,14 +197,14 @@ export class HomeComponent implements OnInit {
     if(this.category == "all")
 {   
     console.log("inside if")
-    this.sub = this.productService.getProducts('https://business-and-retail-web-ar.herokuapp.com/api/v1/'+this.industry+'/getAll').subscribe(
+    this.sub = this.productService.getProducts('https://webarbackend.azurewebsites.net/api/v1/'+this.industry+'/getAll').subscribe(
         res=>{
           this.products=res.Products;
           
         })}
         else{
             console.log("inside else")
-            var query = 'https://business-and-retail-web-ar.herokuapp.com/api/v1/'+this.industry+'/'+this.category+'/getAll'
+            var query = 'https://webarbackend.azurewebsites.net/api/v1/'+this.industry+'/'+this.category+'/getAll'
             console.log(query)
             this.sub = this.productService.getProducts(query).subscribe(
         res=>{

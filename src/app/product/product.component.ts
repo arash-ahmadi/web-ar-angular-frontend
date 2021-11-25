@@ -92,7 +92,7 @@ export class ProductComponent implements OnInit {
       
   }
   getQrCode(industry, id) {
-    this._product.getQrCode({"url": 'https://business-and-retail-web-ar.herokuapp.com/api/v1/scanQrCode/'+industry+'/'+id}).subscribe(
+    this._product.getQrCode({"url": 'https://webarbackend.azurewebsites.net/api/v1/scanQrCode/'+industry+'/'+id}).subscribe(
                 res=>{
                     this.qrResult = res.result;
                 }
@@ -100,12 +100,12 @@ export class ProductComponent implements OnInit {
   }
 
   getProduct = (industry, id) => {
-    // this.sub = this.productService.getProducts('https://business-and-retail-web-ar.herokuapp.com/api/v1/Furniture/'+id)
+    // this.sub = this.productService.getProducts('https://webarbackend.azurewebsites.net/api/v1/Furniture/'+id)
     //     .subscribe(res => {
     //         this.product = res.Product;
     //         // console.log(res)
     //     })
-    this.sub = this._product.getProducts('https://business-and-retail-web-ar.herokuapp.com/api/v1/'+industry+'/'+id).subscribe(
+    this.sub = this._product.getProducts('https://webarbackend.azurewebsites.net/api/v1/'+industry+'/'+id).subscribe(
         res=>{
           this.product = res.Product
           this.loading = false

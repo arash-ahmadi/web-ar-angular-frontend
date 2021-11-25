@@ -89,6 +89,14 @@
     }
   }
 }
+.modal-content {
+  -webkit-border-radius: 12px !important;
+  -moz-border-radius: 12px !important;
+  border-radius: 12px !important;
+  -webkit-border: 5px solid #78aaff !important;
+  -moz-border: 5px solid #78aaff !important;
+  border:  5px solid #78aaff !important;
+}
 
 // @media screen and (min-width: 1200px) {
 //   .product-container {

@@ -11,18 +11,19 @@
       <div style="padding: 35px;" class="row">
         <div class="col-md-6 float-center">
           <model-viewer id="dimension-demo" ar ar-modes="webxr" ar-scale="fixed" camera-orbit="-30deg auto auto"
-          max-camera-orbit="auto 100deg auto" shadow-intensity="1" camera-controls src={{product.src}}
-          ios-src={{product.ios_src}} alt="" poster={{product.product_image_url}} loading="lazy"
-          style=" width: 600px; height: 450px; position: relative;">
-          <!-- <button class="btn btn-sm btn-outline-primary" style="position: absolute;bottom: 0%;"
-          (click)="open(content)">
-          View in AR
-          </button> -->
-          <!-- <button class="btn-dark" (click)="openPopup()" style="vertical-align: middle;">
+            max-camera-orbit="auto 100deg auto" shadow-intensity="1" camera-controls src={{product.src}}
+            ios-src={{product.ios_src}} alt="" poster={{product.product_image_url}} loading="lazy"
+            style="position: relative;"
+            [ngStyle]="{'height':(screenWidth > 1200)? '450px' : '300px', 'width':(screenWidth > 1200)? '600px' : '400px'}">
+            <button class="btn btn-sm btn-outline-primary" style="position: absolute;bottom: 0%;"
+              (click)="open(content)">
+              View in AR
+            </button>
+            <!-- <button class="btn-dark" (click)="openPopup()" style="vertical-align: middle;">
            
             <div> View in AR</div>
           </button> -->
-        </model-viewer>
+          </model-viewer>
         </div>
         <div class="col-md-6">
           <img *ngIf="false" src={{qrResult}} />
@@ -39,47 +40,41 @@
               <span class="review-link">10 Review(s) |
                 <span style="cursor: pointer">Add your review</span></span>
             </div>
-
-            <div class="category">
-              {{ product.category }}
-              </div>
-
             <div class="price-container">
               <h2 class="price">{{ product.price | currency: "USD" }}</h2>
               <span class="availability"></span>
             </div>
             <div class="description">{{ product.description }}</div>
             <div class="cta">
-              <!-- <div class="add-to-cart">
+              <div class="add-to-cart">
                 <span>QTY:</span>
-  
+
                 <nz-input-number [(ngModel)]="quantity"></nz-input-number>
                 <button nz-button nzType="primary" (click)="addToCart()" [disabled]="quantity === 0">
                   Add to cart
                 </button>
-                <button type="button" nz-button nzType="primary" data-toggle="modal" data-target="#exampleModalCenter" (click)="openPopup()">
+                <!-- <button type="button" nz-button nzType="primary" data-toggle="modal" data-target="#exampleModalCenter" (click)="openPopup()">
                   View In Mobile
-                </button>
-              </div> -->
-              <button class="btn btn-sm btn-outline-primary" 
-              (click)="open(content)">
-              View in AR
-              </button> 
-              <!-- <div class="social-links">
+                </button> -->
+              </div>
+              <div class="category">
+                <span>Category: </span> {{ product.category }}
+              </div>
+              <div class="social-links">
                 <span>Share: </span>
                 <i nz-icon nzType="facebook" nzTheme="outline"></i>
                 <i nz-icon nzType="twitter" nzTheme="outline"></i>
                 <i nz-icon nzType="google-plus" nzTheme="outline"></i>
                 <i nz-icon nzType="mail" nzTheme="outline"></i>
-              </div> -->
+              </div>
             </div>
           </div>
         </div>
-        
-        
 
-        
-        
+
+
+
+
       </div>
     </div>
   </div>
@@ -121,23 +116,19 @@
 
 </div> -->
 
-<ng-template class="modal-dialog-centered" #content let-modal>
-  <div class="modal-header" style="border-bottom: 0px !important;">
-      <h2 class="modal-title" 
-          id="modal-basic-title" style="font-size: 15px">
-          Scan the QR code to view in your space
-      </h2>
-      <button type="button" class="close btn-close"
-              aria-label="Close" (click)=
-              "modal.dismiss('Cross click')">
+<ng-template class="modal-dialog-centered " #content let-modal style="border: 2px !important;">
+  <div style="border: 3px solid #78aaff;" >
+    <div class="modal-header" style="border-bottom: 0px !important; padding-bottom:0px">
 
-          <!-- <span aria-hidden="true">
-              ×
-          </span> -->
+      <h2 class="modal-title" id="modal-basic-title" style="text-align: center;line-height:1.2; font-size:18px;">
+        Scan this QR Code with your smartphone to experience our WebAR product
+      </h2>
+      <button type="button" class="close btn-close" aria-label="Close" (click)="modal.dismiss('Cross click')" style="margin-right: 2px;">
       </button>
-  </div>
-  <div class="modal-body" style="text-align: center">
-    <img  src={{qrResult}} />
+
+    </div>
+    <div class="modal-body" style="text-align: center">
+      <img src={{qrResult}} />
+    </div>
   </div>
 </ng-template>
-

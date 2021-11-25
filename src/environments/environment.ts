@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  apiUrl: 'https://business-and-retail-web-ar.herokuapp.com/api/v1/',
+  apiUrl: 'https://webarbackend.azurewebsites.net/api/v1/',
 };
 
 /*

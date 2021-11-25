@@ -4,11 +4,11 @@
       <h2>Industries</h2>
     </div> -->
     <div class="categories__list">
-      <swiper  [zoom]="false" [slidesPerView]="(screenWidth > 1200) && showCategory ? 3 : 1" [spaceBetween]="30" [pagination]="true"
+      <swiper  [zoom]="false" [slidesPerView]="(screenWidth > 1200) ? 3 : 1" [spaceBetween]="30" [pagination]="true"
         [loop]="false">
          <ng-template swiperSlide *ngFor="let c of categories">
           <a (click)="industrySelect(c.name,'all')">
-            <div class="category-card" style="background:url({{c.img}}); width:100%; transition: height 1.2s;" [ngStyle]="{'height': (screenWidth > 1200) && !showCategory ? '425px' : !showCategory ? '625px' : '150px'}" >{{ c.name }}</div>
+            <div class="category-card" style="background:url({{c.img}}); width:100%; transition: transform 0.2s;" [ngStyle]="{'height':'150px'}" >{{ c.name }}</div>
           </a>
           
         </ng-template>
@@ -30,7 +30,7 @@
     </div>
   </div>
   </div>
-  <div class="products" *ngIf = showCategory>
+  <div class="products" >
     <div class="products__header">
       <h2>Products</h2>
     </div>

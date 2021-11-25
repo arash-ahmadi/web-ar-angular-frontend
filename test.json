@@ -1,8 +1,8 @@
 {
     "value": [
         {
-            "IosSrc": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/Book%20Rack_1.usdz",
-            "Src": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/Book%20Rack_1.glb",
+            "IosSrc": "https://arasset.azureedge.net/webar/Book%20Rack_1.usdz",
+            "Src": "https://arasset.azureedge.net/webar/Book%20Rack_1.glb",
             "DisplayProductNumber": "hexa1018",
             "Description": "A storage unit with open shelves to keep books and other things of various shapes and sizes and a display shelf. Crafted for compact homes. Suitable for Study rooms and Living room. Sense and sensibility, just like its namesake. Thebook rack slim, compact design belies its capacity. The five open shelves give you room aplenty for your next book shopping spree.",
             "Model_ID": "Book_Rack_AT",
@@ -17,7 +17,7 @@
             "Length": 150,
             "SubCategory": "Rack",
             "Height": 81,
-            "Product_Image": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/Book%20Rack_1.png",
+            "Product_Image": "https://arasset.azureedge.net/webar/Book%20Rack_1.png",
             "PriceText": "$ 499",
             "Price": 499,
             "Area": 2349,
@@ -35,8 +35,8 @@
             ] 
         },
         {
-            "IosSrc": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/Comfort%20in%20the%20Kitchen.usdz",
-            "Src": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/Comfort%20in%20the%20Kitchen.glb",
+            "IosSrc": "https://arasset.azureedge.net/webar/Comfort%20in%20the%20Kitchen.usdz",
+            "Src": "https://arasset.azureedge.net/webar/Comfort%20in%20the%20Kitchen.glb",
             "DisplayProductNumber": "hexa1002",
             "Description": "Regardless of it’s size or layout, the kitchen can also function as your office. Transform your “surface” into a standing height desk with the Coordinate Portable Desktop Riser.  A simple lift transforms the  coffee table to laptop table. Great for those prone to bringing home work from the office. And for those who like to put their feet up and binge watch The Office. The elegant oak finish means it can sit pretty in your living room, letting you multitask.",
             "Model_ID": "WFHSF_2",
@@ -69,8 +69,8 @@
             ]
         },
         {
-            "IosSrc": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/CrossRoads%20Of%20Style%20and%20Function.usdz",
-            "Src": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/CrossRoads%20Of%20Style%20and%20Function.glb",
+            "IosSrc": "https://arasset.azureedge.net/webar/CrossRoads%20Of%20Style%20and%20Function.usdz",
+            "Src": "https://arasset.azureedge.net/webar/CrossRoads%20Of%20Style%20and%20Function.glb",
             "DisplayProductNumber": "hexa10001",
             "Description": "Create a workspace that blends seamlessly into your functional home environment. The ample surface and drawers make it an ideal desk for students and professionals alike. We offer a broad offering so you can choose the form and function that works best for your space!",
             "Model_ID": "WFHSF_1",
@@ -103,8 +103,8 @@
             ]
         },
         {
-            "IosSrc": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/Dedicated%20Furniture.usdz",
-            "Src": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/Dedicated%20Furniture.glb",
+            "IosSrc": "https://arasset.azureedge.net/webar/Dedicated%20Furniture.usdz",
+            "Src": "https://arasset.azureedge.net/webar/Dedicated%20Furniture.glb",
             "DisplayProductNumber": "hexa1008",
             "Description": "This chic space with perfect ergnomics gets the most out of the space occupied while looking elegant. It has a wire manager on either ends and is wide and deep enough to hold an extension cord and all the cables needed to power all of your devices.",
             "Model_ID": "WFHSF_8",
@@ -137,8 +137,8 @@
             ]  
         },
         {
-            "IosSrc": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/Make%20it%20your%20Own.usdz",
-            "Src": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/Make%20it%20your%20Own.glb",
+            "IosSrc": "https://arasset.azureedge.net/webar/Make%20it%20your%20Own.usdz",
+            "Src": "https://arasset.azureedge.net/webar/Make%20it%20your%20Own.glb",
             "DisplayProductNumber": "hexa1005",
             "Description": "An elegant design that helps you be clutter free. Whenever you feel like working at home, there is a friendly co-worker ready to help you. The executive chair is your table’s best friend and your favourite working companion.",
             "Model_ID": "WFHSF_5",
@@ -171,8 +171,8 @@
             ] 
         },
         {
-            "IosSrc": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/Simple%20and%20Inspiring.usdz",
-            "Src": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/Simple%20and%20Inspiring.glb",
+            "IosSrc": "https://arasset.azureedge.net/webar/Simple%20and%20Inspiring.usdz",
+            "Src": "https://arasset.azureedge.net/webar/Simple%20and%20Inspiring.glb",
             "DisplayProductNumber": "1001",
             "Description": "Here, a simple desk can create an office that’s both inspiring and practical. The small storage pedestal helps conceal supplies and files that completes a fully functional home office. The slim proportions and simple design can fit into any kind of work/study space",
             "Model_ID": "WFHSF_4",
@@ -205,8 +205,8 @@
             ] 
         },
         {
-            "IosSrc": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/Space%20saver.usdz",
-            "Src": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/Space%20saver.glb",
+            "IosSrc": "https://arasset.azureedge.net/webar/Space%20saver.usdz",
+            "Src": "https://arasset.azureedge.net/webar/Space%20saver.glb",
             "DisplayProductNumber": "hexa1006",
             "Description": "This approach requires getting the most out of every inch of space by adding a versatile between table with a comfortable Solve task chair. Once the work day is done, nest it away to make room for other activities.",
             "Model_ID": "WFHSF_6",
@@ -239,8 +239,8 @@
             ] 
         },
         {
-            "IosSrc": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/Teapoy_1.usdz",
-            "Src": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/Teapoy_1.glb",
+            "IosSrc": "https://arasset.azureedge.net/webar/Teapoy_1.usdz",
+            "Src": "https://arasset.azureedge.net/webar/Teapoy_1.glb",
             "DisplayProductNumber": "hexa1022",
             "Description": "Have a seat!  The tea table set makes a great addition to your home. It has an extremely modern contemporary look that helps you set up space in your home, restaurant, office, etc. It is durable and long lasting body.  If you like the no fuss approach, this is the perfect teapoy table for you. ",
             "Model_ID": "Teapoy_AT_2",
@@ -255,7 +255,7 @@
             "Length": 80,
             "SubCategory": "Set",
             "Height": 41,
-            "Product_Image": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/Teapoy_1.png",
+            "Product_Image": "https://arasset.azureedge.net/webar/Teapoy_1.png",
             "PriceText": "$ 699",
             "Price": 699,
             "Area": 3280,
@@ -273,8 +273,8 @@
             ] 
         },
         {
-            "IosSrc": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/The%20Bold%20and%20Beautiful.usdz",
-            "Src": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/The%20Bold%20and%20Beautiful.glb",
+            "IosSrc": "https://arasset.azureedge.net/webar/The%20Bold%20and%20Beautiful.usdz",
+            "Src": "https://arasset.azureedge.net/webar/The%20Bold%20and%20Beautiful.glb",
             "DisplayProductNumber": "hexa1007",
             "Description": "This chic space with clean lines excels at all the fundamentals. A clean and elegant table with contemporary book-end design. Comes along with a drawer, wire-manager and compact design to satisfy all needs.",
             "Model_ID": "WFHSF_7",
@@ -341,8 +341,8 @@
             ] 
         },
         {
-            "IosSrc": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/Workspace%20with%20a%20view.usdz",
-            "Src": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/Workspace%20with%20a%20view.glb",
+            "IosSrc": "https://arasset.azureedge.net/webar/Workspace%20with%20a%20view.usdz",
+            "Src": "https://arasset.azureedge.net/webar/Workspace%20with%20a%20view.glb",
             "DisplayProductNumber": "1003",
             "Description": "Although space might be tight, a little creativity and rearranging goes a long way. This desk really maximizes the space with the open leg support that keeps the room feeling open and airy. Add the Matter task chair that combines style and comfort for the perfect finish to the room.",
             "Model_ID": "WFHSF_3",
@@ -375,8 +375,8 @@
             ] 
         },
         {
-            "IosSrc": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/HNI_C_AT2_512.usdz",
-            "Src": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/HNI_C_AT2_512.glb",
+            "IosSrc": "https://arasset.azureedge.net/webar/HNI_C_AT2_512.usdz",
+            "Src": "https://arasset.azureedge.net/webar/HNI_C_AT2_512.glb",
             "DisplayProductNumber": "hexa1010",
             "Description": "An essential key to successful teamwork and collaboration is creating a functional office design where people can be accessible to one another. The work area designed for maximum and effective utilization of the space available, without compromising comfort and privacy. Arrange your files and papers neatly inside the drawers that operate smoothly on quality hardware. There’s another pocket to accommodate all the messy wires.",
             "Model_ID": "_C_AT2",
@@ -409,8 +409,8 @@
             ] 
         },
         {
-            "IosSrc": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/HNI_C_AT3_512.usdz",
-            "Src": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/HNI_C_AT3_512.glb",
+            "IosSrc": "https://arasset.azureedge.net/webar/HNI_C_AT3_512.usdz",
+            "Src": "https://arasset.azureedge.net/webar/HNI_C_AT3_512.glb",
             "DisplayProductNumber": "hexa1009",
             "Description": "Worspace designed for maximum productivity and inspired by modern ergonomics. The sofa in between is compact, cozy gives you ultimate comfort. Beautifully finished, the dual tone desk will complement any decor style. The generous table has room for you to spread out, and the two deep drawers help keep a check on overflowing papers, files, and more. There’s plenty of space below for legs to stretch comfortably",
             "Model_ID": "_C_AT3",
@@ -443,8 +443,8 @@
             ] 
         },
         {
-            "IosSrc": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/HNI_C_GIM3_512.usdz",
-            "Src": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/HNI_C_GIM3_512.glb",
+            "IosSrc": "https://arasset.azureedge.net/webar/HNI_C_GIM3_512.usdz",
+            "Src": "https://arasset.azureedge.net/webar/HNI_C_GIM3_512.glb",
             "DisplayProductNumber": "hexa1016",
             "Description": "The users feel connected to their co-workers while still maintaining an element of personal space in an otherwise open environment. Bonus features include personal storage lockers under the desktops and panel supported benches Created for today’s active workplace, active workstyles, and active sitting. It is responsive and supportive of your every move",
             "Model_ID": "_C_GIM3",
@@ -477,8 +477,8 @@
             ] 
         },
         {
-            "IosSrc": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/HNI_CR_HOC_512.usdz",
-            "Src": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/HNI_CR_HOC_512.glb",
+            "IosSrc": "https://arasset.azureedge.net/webar/HNI_CR_HOC_512.usdz",
+            "Src": "https://arasset.azureedge.net/webar/HNI_CR_HOC_512.glb",
             "DisplayProductNumber": "hexa1017",
             "Description": "These tables are designed to evoke a personal experience and visceral reaction to its detail and materials. The passion for organic materials puts the wood and joinery in focus, concentrating you to how a vertical surface links to a horizontal surface. This airplane section, modern and round, softly transcends, pointing more toward the future than the past.",
             "Model_ID": "_CR_HOC",
@@ -511,8 +511,8 @@
             ] 
         },
         {
-            "IosSrc": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/HNI_IC_ACB_512.usdz",
-            "Src": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/HNI_IC_ACB_512.glb",
+            "IosSrc": "https://arasset.azureedge.net/webar/HNI_IC_ACB_512.usdz",
+            "Src": "https://arasset.azureedge.net/webar/HNI_IC_ACB_512.glb",
             "DisplayProductNumber": "hexa1012",
             "Description": "This chair provides great durability and toughness so that you can say goodbye to all your worries while relaxing on the comfortable leatherette cushion upholstery. Designed with sleek curved armrest, this chair will bring a professional tone and convert your working space at home into a professional office setting. Let the hard working days now be filled with sturdiness.",
             "Model_ID": "_IC_ACB",
@@ -545,8 +545,8 @@
             ] 
         },
         {
-            "IosSrc": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/HNI_IC_AGP3_B_512.usdz",
-            "Src": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/HNI_IC_AGP3_B_512.glb",
+            "IosSrc": "https://arasset.azureedge.net/webar/HNI_IC_AGP3_B_512.usdz",
+            "Src": "https://arasset.azureedge.net/webar/HNI_IC_AGP3_B_512.glb",
             "DisplayProductNumber": "hexa1011",
             "Description": "With three back materials, synchro-tilt control and an optional adjustable lumbar support, Solve answers the need for a higher level of personalization. The 4-Way Stretch mesh back provides responsive support and a softer fit. The geometric ReActiv back flexes and moves with the user to provide a firmer fit, and an upholstered front can be added to increase support and thermal comfort. Solve helps anyone achieve optimal balance and alignment, making it an ideal solution for everybody.",
             "Model_ID": "_IC_AGP3",
@@ -561,7 +561,7 @@
             "Length": 130,
             "SubCategory": "Chair",
             "Height": 73,
-            "Product_Image": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/HNI_IC_AGP3_B-removebg-preview.png",
+            "Product_Image": "https://arasset.azureedge.net/webar/HNI_IC_AGP3_B-removebg-preview.png",
             "PriceText": "$ 199",
             "Price": 199,
             "Area": 5548,
@@ -579,8 +579,8 @@
             ] 
         },
         {
-            "IosSrc": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/HNI_L_CB_512.usdz",
-            "Src": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/HNI_L_CB_512.glb",
+            "IosSrc": "https://arasset.azureedge.net/webar/HNI_L_CB_512.usdz",
+            "Src": "https://arasset.azureedge.net/webar/HNI_L_CB_512.glb",
             "DisplayProductNumber": "hexa1013",
             "Description": "A wonderful lounger offers a fine resting experience. If you’re looking for the finer things in life, here’s a product that will surely catch your fancy.The bonded leather upholstery and foam cushions allow the lounger to offer an amazing amount of comfort. ",
             "Model_ID": "_L_CB",
@@ -613,8 +613,8 @@
             ] 
         },
         {
-            "IosSrc": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/HNI_L_MH2_512.usdz",
-            "Src": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/HNI_L_MH2_512.glb",
+            "IosSrc": "https://arasset.azureedge.net/webar/HNI_L_MH2_512.usdz",
+            "Src": "https://arasset.azureedge.net/webar/HNI_L_MH2_512.glb",
             "DisplayProductNumber": "hexa1014",
             "Description": "For every tablet, coffee mug, or notepad, there's a need for an occasional table. Don't scramble to find an open meeting room when you can move the tables you need around a lounge space. The cross-bar design provides a mid-century aesthetic which fits perfectly with any lounge setting to bring people together effortlessly.",
             "Model_ID": "_L_MH2",
@@ -647,8 +647,8 @@
             ] 
         },
         {
-            "IosSrc": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/Monaca%20Sofa_1.usdz",
-            "Src": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/Monaca%20Sofa_1.glb",
+            "IosSrc": "https://arasset.azureedge.net/webar/Monaca%20Sofa_1.usdz",
+            "Src": "https://arasset.azureedge.net/webar/Monaca%20Sofa_1.glb",
             "DisplayProductNumber": "hexa1025",
             "Description": "Be it the attractive color of the piece or even the comfortable seating ergonomics, we've got them sorted with our lounger sofa. Generous proportions to stretch, lean back, or sneak in a nap, you can do it all. Bring a sense of comfort and cohesion to your favorite seating space with this sofa.",
             "Model_ID": "Sofa_AT_1_02",
@@ -663,7 +663,7 @@
             "Length": 99,
             "SubCategory": "Sofa",
             "Height": 233,
-            "Product_Image": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/Monaca%20Sofa_1.png",
+            "Product_Image": "https://arasset.azureedge.net/webar/Monaca%20Sofa_1.png",
             "PriceText": "$ 999",
             "Price": 999,
             "Area": 233,
@@ -681,8 +681,8 @@
             ] 
         },
         {
-            "IosSrc": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/Night%20Lamp_1.usdz",
-            "Src": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/Night%20Lamp_1.glb",
+            "IosSrc": "https://arasset.azureedge.net/webar/Night%20Lamp_1.usdz",
+            "Src": "https://arasset.azureedge.net/webar/Night%20Lamp_1.glb",
             "DisplayProductNumber": "hexa1021",
             "Description": "Modify brightness and match the ambience with colors. The soft and cozy material of it presents a beautiful simple look and transforms the room into a cozy and relaxed enviornment. Illuminate your room effectively with this Stylish and Elegant Lamp Customary because every room deserves one.",
             "Model_ID": "Table_Lamp_AT_2",
@@ -697,7 +697,7 @@
             "Length": 30,
             "SubCategory": "Lamp",
             "Height": 24,
-            "Product_Image": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/Night%20Lamp_1.png",
+            "Product_Image": "https://arasset.azureedge.net/webar/Night%20Lamp_1.png",
             "PriceText": "$ 299",
             "Price": 299,
             "Area": 0,
@@ -715,8 +715,8 @@
             ] 
         },
         {
-            "IosSrc": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/Table%20Lamp_1.usdz",
-            "Src": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/Table%20Lamp_1.glb",
+            "IosSrc": "https://arasset.azureedge.net/webar/Table%20Lamp_1.usdz",
+            "Src": "https://arasset.azureedge.net/webar/Table%20Lamp_1.glb",
             "DisplayProductNumber": "hexa1020",
             "Description": "A lovely, inexpensive, and practical table lamp to meet your basic fashion lighting needs. Furnish your home and  light up your desk. As a side table lamp, it is perfect for your bedroom or kid room, matching with any décor, it may help to decorate uour home and make it modernised.",
             "Model_ID": "Table_Lamp_AT_1",
@@ -731,7 +731,7 @@
             "Length": 29,
             "SubCategory": "Lamp",
             "Height": 23,
-            "Product_Image": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/Table%20Lamp_1.png",
+            "Product_Image": "https://arasset.azureedge.net/webar/Table%20Lamp_1.png",
             "PriceText": "$ 299",
             "Price": 299,
             "Area": 1035,
@@ -749,8 +749,8 @@
             ] 
         },
         {
-            "IosSrc": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/Wall%20Rack_1.usdz",
-            "Src": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/Wall%20Rack_1.glb",
+            "IosSrc": "https://arasset.azureedge.net/webar/Wall%20Rack_1.usdz",
+            "Src": "https://arasset.azureedge.net/webar/Wall%20Rack_1.glb",
             "DisplayProductNumber": "hexa1024",
             "Description": "Match your rack with your ambience. It is not only a storage solution to your house, but also a pretty display in your house. You can store your books, show-piece items by keeping them well organised yet easy to access.",
             "Model_ID": "Wooden_Rack_AT",
@@ -765,7 +765,7 @@
             "Length": 154,
             "SubCategory": "Rack",
             "Height": 45,
-            "Product_Image": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/Wall%20Rack_1.png",
+            "Product_Image": "https://arasset.azureedge.net/webar/Wall%20Rack_1.png",
             "PriceText": "$ 249",
             "Price": 249,
             "Area": 1845,
@@ -783,8 +783,8 @@
             ] 
         },
         {
-            "IosSrc": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/Wooden%20Stool_1.usdz",
-            "Src": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/Wooden%20Stool_1.glb",
+            "IosSrc": "https://arasset.azureedge.net/webar/Wooden%20Stool_1.usdz",
+            "Src": "https://arasset.azureedge.net/webar/Wooden%20Stool_1.glb",
             "DisplayProductNumber": "hexa1019",
             "Description": "Cozy and efficient tea table in a low budget. A polished finish coffee/ tea table adds an elegant touch to your living room décor. The secondary material is hard wooden columns. It is rich in quality and hence long lasting.",
             "Model_ID": "Teapoy_AT_1",
@@ -799,7 +799,7 @@
             "Length": 60,
             "SubCategory": "Table",
             "Height": 43,
-            "Product_Image": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/Wooden%20Stool_1.png",
+            "Product_Image": "https://arasset.azureedge.net/webar/Wooden%20Stool_1.png",
             "PriceText": "$ 499",
             "Price": 499,
             "Area": 2580,
@@ -817,8 +817,8 @@
             ] 
         },
         {
-            "IosSrc": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/SEYCHR_512.usdz",
-            "Src": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/SEYCHR_512.glb",
+            "IosSrc": "https://arasset.azureedge.net/webar/SEYCHR_512.usdz",
+            "Src": "https://arasset.azureedge.net/webar/SEYCHR_512.glb",
             "DisplayProductNumber": "hexa1030",
             "Description": "The Seymour Chair offers incredible flexibility - with design options including swivel or fixed base, and three different back heights including a low, mid and high back for extra head support. A luxurious way to relax at home.",
             "Model_ID": "SEYCHR",
@@ -851,8 +851,8 @@
             ] 
         },
         {
-            "IosSrc": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/KLQIDT_512.usdz",
-            "Src": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/KLQIDT_512.glb",
+            "IosSrc": "https://arasset.azureedge.net/webar/KLQIDT_512.usdz",
+            "Src": "https://arasset.azureedge.net/webar/KLQIDT_512.glb",
             "DisplayProductNumber": "hexa1031",
             "Description": "Quay's slender legs and gentle curves will bring a luxurious elegance to any dining room. Complemented by Quay dining chairs available in a wide range of premium fabrics and leathers.",
             "Model_ID": "KLQIDT",
@@ -885,8 +885,8 @@
             ] 
         },
         {
-            "IosSrc": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/KLSAFL.usdz",
-            "Src": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/KLSAFL_512.glb",
+            "IosSrc": "https://arasset.azureedge.net/webar/KLSAFL.usdz",
+            "Src": "https://arasset.azureedge.net/webar/KLSAFL_512.glb",
             "DisplayProductNumber": "hexa1032",
             "Description": "Create the perfect ambience with a sophisticated collection of lamps and pendant lights.",
             "Model_ID": "KLSAFL",
@@ -919,8 +919,8 @@
             ] 
         },
         {
-            "IosSrc": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/KLSGFL_512.usdz",
-            "Src": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/KLSGFL_512.glb",
+            "IosSrc": "https://arasset.azureedge.net/webar/KLSGFL_512.usdz",
+            "Src": "https://arasset.azureedge.net/webar/KLSGFL_512.glb",
             "Name": "Solifiore Gymea Floor Lamp",
             "Model_ID": "KLSGFL",
             "SubCategory": "Lamp",
@@ -953,8 +953,8 @@
             ] 
         },
         {
-            "IosSrc": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/BETRLS_1_512.usdz",
-            "Src": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/BETRLS_1_512.glb",
+            "IosSrc": "https://arasset.azureedge.net/webar/BETRLS_1_512.usdz",
+            "Src": "https://arasset.azureedge.net/webar/BETRLS_1_512.glb",
             "Name": "Betrillo Loveseat",
             "Model_ID": "BETRLS",
             "SubCategory": "Sofa",
@@ -987,8 +987,8 @@
             ] 
         },
         {
-            "IosSrc": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/ISCSTL_512.usdz",
-            "Src": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/ISCSTL_512.glb",
+            "IosSrc": "https://arasset.azureedge.net/webar/ISCSTL_512.usdz",
+            "Src": "https://arasset.azureedge.net/webar/ISCSTL_512.glb",
             "Name": "Issho Coffee & Side Table",
             "Model_ID": "ISCSTL",
             "SubCategory": "Table",
@@ -1021,8 +1021,8 @@
             ] 
         },
         {
-            "IosSrc": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/MOCOTL_512.usdz",
-            "Src": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/MOCOTL_512.glb",
+            "IosSrc": "https://arasset.azureedge.net/webar/MOCOTL_512.usdz",
+            "Src": "https://arasset.azureedge.net/webar/MOCOTL_512.glb",
             "Name": "Monument Coffee Table",
             "Model_ID": "MOCOTL",
             "SubCategory": "Table",
@@ -1055,8 +1055,8 @@
             ] 
         },
         {
-            "IosSrc": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/KLASDO_512.usdz",
-            "Src": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/KLASDO_512.glb",
+            "IosSrc": "https://arasset.azureedge.net/webar/KLASDO_512.usdz",
+            "Src": "https://arasset.azureedge.net/webar/KLASDO_512.glb",
             "Name": "Aspen Sideboard 2 Door 1 Drawer",
             "Model_ID": "KLASDD",
             "SubCategory": "Rack",
@@ -1089,8 +1089,8 @@
             ] 
         },
         {
-            "IosSrc": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/MACLST_512.usdz",
-            "Src": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/MACLST_512.glb",
+            "IosSrc": "https://arasset.azureedge.net/webar/MACLST_512.usdz",
+            "Src": "https://arasset.azureedge.net/webar/MACLST_512.glb",
             "Name": "Macleary Loveseat",
             "Model_ID": "MACLST",
             "SubCategory": "Sofa",
@@ -1123,8 +1123,8 @@
             ] 
         },
         {
-            "IosSrc": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/DALIBC_512.usdz",
-            "Src": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/DALIBC_512.glb",
+            "IosSrc": "https://arasset.azureedge.net/webar/DALIBC_512.usdz",
+            "Src": "https://arasset.azureedge.net/webar/DALIBC_512.glb",
             "Name": "Dainelli Libreria Bookcase",
             "Model_ID": "DALIBC",
             "SubCategory": "Rack",
@@ -1157,8 +1157,8 @@
             ] 
         },
         {
-            "IosSrc": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/KINGBLD_512.usdz",
-            "Src": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/KINGBLD_512.glb",
+            "IosSrc": "https://arasset.azureedge.net/webar/KINGBLD_512.usdz",
+            "Src": "https://arasset.azureedge.net/webar/KINGBLD_512.glb",
             "Name": "Queen boulevard",
             "Model_ID": "KNGBLD",
             "SubCategory": "Chair",
@@ -1191,8 +1191,8 @@
             ] 
         },
         {
-            "IosSrc": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/HNI_F_MSG_512.usdz",
-            "Src": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/HNI_F_MSG_512.glb",
+            "IosSrc": "https://arasset.azureedge.net/webar/HNI_F_MSG_512.usdz",
+            "Src": "https://arasset.azureedge.net/webar/HNI_F_MSG_512.glb",
             "Name": "Outdoor Fireplace",
             "Model_ID": "_F_MSG",
             "SubCategory": "Hearth",
@@ -1225,8 +1225,8 @@
             ] 
         },
         {
-            "IosSrc": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/HNI_F_FFO_512.usdz",
-            "Src": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/HNI_F_FFO_512.glb",
+            "IosSrc": "https://arasset.azureedge.net/webar/HNI_F_FFO_512.usdz",
+            "Src": "https://arasset.azureedge.net/webar/HNI_F_FFO_512.glb",
             "Name": "Beautiful Traditional Gas Fireplace",
             "Model_ID": "_F_FFO",
             "SubCategory": "Hearth",
@@ -1259,8 +1259,8 @@
             ] 
         },
         {
-            "IosSrc": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/HNI_F_DWBS_512.usdz",
-            "Src": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/HNI_F_DWBS_512.glb",
+            "IosSrc": "https://arasset.azureedge.net/webar/HNI_F_DWBS_512.usdz",
+            "Src": "https://arasset.azureedge.net/webar/HNI_F_DWBS_512.glb",
             "Name": "Defiant Wood Burning Hearth",
             "Model_ID": "_F_DWBS",
             "SubCategory": "Hearth",
@@ -1293,8 +1293,8 @@
             ] 
         },
         {
-            "IosSrc": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/HNI_F_STRD_512.usdz",
-            "Src": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/HNI_F_STRD_512.glb",
+            "IosSrc": "https://arasset.azureedge.net/webar/HNI_F_STRD_512.usdz",
+            "Src": "https://arasset.azureedge.net/webar/HNI_F_STRD_512.glb",
             "Name": " Direct Vent gas Hearth",
             "Model_ID": "_F_STRD",
             "SubCategory": "Hearth",
@@ -1327,14 +1327,14 @@
             ] 
         },
         {
-            "IosSrc": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/KLKCD3_512.usdz",
-            "Src": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/KLKCD3_512.glb",
+            "IosSrc": "https://arasset.azureedge.net/webar/KLKCD3_512.usdz",
+            "Src": "https://arasset.azureedge.net/webar/KLKCD3_512.glb",
             "Name": "King Cloud III",
             "Model_ID": "KLKCD3",
             "SubCategory": "Sofa",
             "DisplayProductNumber": "hexa1100",
             "Usage": "Home",
-            "Product_Image": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/KLKCD3.png",
+            "Product_Image": "https://arasset.azureedge.net/webar/KLKCD3.png",
             "PriceText": "$ 999",
             "Price": 999,
             "Description": "The world’s most advanced modular recliner with TouchGlide control technology that memorises your preferred seating position. Smart Pocket allow you to integrate smart accessories for truly personalised comfort.",
@@ -1361,14 +1361,14 @@
             ] 
         },
         {
-            "IosSrc": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/KLTUCD_512.usdz",
-            "Src": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/KLTUCD_512.glb",
+            "IosSrc": "https://arasset.azureedge.net/webar/KLTUCD_512.usdz",
+            "Src": "https://arasset.azureedge.net/webar/KLTUCD_512.glb",
             "Name": "Jasper Bed",
             "Model_ID": "KLTUCD",
             "SubCategory": "Bed",
             "DisplayProductNumber": "hexa1101",
             "Usage": "Home",
-            "Product_Image": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/KLTUCD.png",
+            "Product_Image": "https://arasset.azureedge.net/webar/KLTUCD.png",
             "PriceText": "$ 599",
             "Price": 599,
             "Description": "The ultimate expression of luxury and simplicity, the iconic Jasper has now made its way into the bedroom. Discover a contemporary combination of thoughtful Australian design, blended with a unique sleek grandeur.",
@@ -1395,14 +1395,14 @@
             ] 
         },
         {
-            "IosSrc": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/aplsch.usdz",
-            "Src": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/APLSCH.glb",
+            "IosSrc": "https://arasset.azureedge.net/webar/aplsch.usdz",
+            "Src": "https://arasset.azureedge.net/webar/APLSCH.glb",
             "Name": "Luxembourg",
             "Model_ID": "APLSCH",
             "SubCategory": "Sofa",
             "DisplayProductNumber": "hexa1102",
             "Usage": "Home",
-            "Product_Image": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/APLSCH.png",
+            "Product_Image": "https://arasset.azureedge.net/webar/APLSCH.png",
             "PriceText": "$ 999",
             "Price": 999,
             "Description": "A rather fine design with a universal appeal and a good sense of taste, one for a lifetime.",
@@ -1429,14 +1429,14 @@
             ] 
         },
         {
-            "IosSrc": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/apfloc.usdz",
-            "Src": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/APFLOC.glb",
+            "IosSrc": "https://arasset.azureedge.net/webar/apfloc.usdz",
+            "Src": "https://arasset.azureedge.net/webar/APFLOC.glb",
             "Name": "Florence",
             "Model_ID": "APFLOC",
             "SubCategory": "Sofa",
             "DisplayProductNumber": "hexa1103",
             "Usage": "Home",
-            "Product_Image": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/APFLOC.png",
+            "Product_Image": "https://arasset.azureedge.net/webar/APFLOC.png",
             "PriceText": "$ 999",
             "Price": 999,
             "Description": "The tasteful design of this sofa is deeply influenced by the artsy city of Florence; speaks of nothing but elegance!",
@@ -1463,14 +1463,14 @@
             ] 
         },
         {
-            "IosSrc": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/apastpi.usdz",
-            "Src": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/APASTPI.glb",
+            "IosSrc": "https://arasset.azureedge.net/webar/apastpi.usdz",
+            "Src": "https://arasset.azureedge.net/webar/APASTPI.glb",
             "Name": "Ardour",
             "Model_ID": "APASTPI",
             "SubCategory": "Lamp",
             "DisplayProductNumber": "hexa1104",
             "Usage": "Home",
-            "Product_Image": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/APASTPI.png",
+            "Product_Image": "https://arasset.azureedge.net/webar/APASTPI.png",
             "PriceText": "$ 299",
             "Price": 299,
             "Description": "A harmony of the old and new, the Ardour Chandelier pairs the time-loved crystal with new-age chrome and clever embellishments. This voguish design adds a hint of drama without overwhelming the space.",
@@ -1497,14 +1497,14 @@
             ] 
         },
         {
-            "IosSrc": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/apardr.usdz",
-            "Src": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/APARDR.glb",
+            "IosSrc": "https://arasset.azureedge.net/webar/apardr.usdz",
+            "Src": "https://arasset.azureedge.net/webar/APARDR.glb",
             "Name": "Astrapia",
             "Model_ID": "APARDR",
             "SubCategory": "Lamp",
             "DisplayProductNumber": "hexa1105",
             "Usage": "Home",
-            "Product_Image": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/APARDR.png",
+            "Product_Image": "https://arasset.azureedge.net/webar/APARDR.png",
             "PriceText": "$ 299",
             "Price": 299,
             "Description": "Enfolding a space with a gilded glow, the Astrapia Chandelier exudes warmth and a vintage style. Centralizing on crystal and glass, this shimmering beauty speaks of vibrancy through alluring charm.",
@@ -1531,14 +1531,14 @@
             ] 
         },
         {
-            "IosSrc": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/phelr1.usdz",
-            "Src": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/PHELR1.glb",
+            "IosSrc": "https://arasset.azureedge.net/webar/phelr1.usdz",
+            "Src": "https://arasset.azureedge.net/webar/PHELR1.glb",
             "Name": "Pavilion House",
             "Model_ID": "PHELR1",
             "SubCategory": "Living Room",
             "DisplayProductNumber": "hexa6",
             "Usage": "Home",
-            "Product_Image": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/PHELR1.png",
+            "Product_Image": "https://arasset.azureedge.net/webar/PHELR1.png",
             "PriceText": "$ 299",
             "Price": 299,
             "Description": "Giving your Home a new Style Every Style.",
@@ -1572,7 +1572,7 @@
             "SubCategory": "Living Room",
             "DisplayProductNumber": "hexa7",
             "Usage": "Home",
-            "Product_Image": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/HCELR2.png",
+            "Product_Image": "https://arasset.azureedge.net/webar/HCELR2.png",
             "PriceText": "$ 299999",
             "Price": 299999,
             "Description": "You spend a lot of time in your living room, so it not only needs to look great, but it also needs to be functional and comfortable. Mastering this trifecta can be a design challenge for sure, but we've rounded up the best living room examples to inspire your own decorating projects.",
@@ -1606,7 +1606,7 @@
             "SubCategory": "Sofa",
             "DisplayProductNumber": "hexa8",
             "Usage": "Home",
-            "Product_Image": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/LSOFA.png",
+            "Product_Image": "https://arasset.azureedge.net/webar/LSOFA.png",
             "PriceText": "$ 1999",
             "Price": 1999,
             "Description": "Welcome your guests into your home with pride. This sofa is the ultimate statement sofa, made for royal treatment.The wood used in the furniture is perfectly seasoned for optimum moisture content, to reduce the possibility of seasonal expansion or contraction of the products. Durable for long term use and held up by Strong legs that last a lifetime.",
@@ -1639,14 +1639,14 @@
             ] 
         },
         {
-            "IosSrc": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/APATVU.usdz",
-            "Src": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/APATVU.glb",
+            "IosSrc": "https://arasset.azureedge.net/webar/APATVU.usdz",
+            "Src": "https://arasset.azureedge.net/webar/APATVU.glb",
             "Name": "Alicia TV Unit",
             "Model_ID": "APATVU",
             "SubCategory": "Table",
             "DisplayProductNumber": "hexa88",
             "Usage": "Home",
-            "Product_Image": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/APATVU.png",
+            "Product_Image": "https://arasset.azureedge.net/webar/APATVU.png",
             "PriceText": "$ 299",
             "Price": 299,
             "Description": "Adorn your living room with Alicia, a TV unit so suave that it speaks of nothing but pure elegance!",
@@ -1673,14 +1673,14 @@
             ] 
         },
         {
-            "IosSrc": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/ASRWS.usdz",
-            "Src": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/ASRWS.glb",
+            "IosSrc": "https://arasset.azureedge.net/webar/ASRWS.usdz",
+            "Src": "https://arasset.azureedge.net/webar/ASRWS.glb",
             "Name": "Chair Sets",
             "Model_ID": "ASRWS",
             "SubCategory": "Chair",
             "DisplayProductNumber": "hexa98",
             "Usage": "Home",
-            "Product_Image": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/ASRWS.png",
+            "Product_Image": "https://arasset.azureedge.net/webar/ASRWS.png",
             "PriceText": "$ 799",
             "Price": 799,
             "Description": "Your table’s best friend and your favourite working companion",
@@ -1707,14 +1707,14 @@
             ] 
         },
         {
-            "IosSrc": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/LSOFA.usdz",
-            "Src": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/LSOFA.glb",
+            "IosSrc": "https://arasset.azureedge.net/webar/LSOFA.usdz",
+            "Src": "https://arasset.azureedge.net/webar/LSOFA.glb",
             "Name": "Modular L shaped sofa",
             "Model_ID": "LModularSOFA",
             "SubCategory": "Sofa",
             "DisplayProductNumber": "hexa85",
             "Usage": "Home",
-            "Product_Image": "https://tulanedigcontent.blob.core.windows.net/web-ar-demo/ModularLSOFA.png",
+            "Product_Image": "https://arasset.azureedge.net/webar/ModularLSOFA.png",
             "PriceText": "$ 899",
             "Price": 899,
             "Description": "Reflecting designs that are sleek, trendy and functional. This sofa is the ultimate statement sofa, made for royal treatment.The wood used in the furniture is perfectly seasoned for optimum moisture content, to reduce the possibility of seasonal expansion or contraction of the products. Durable for long term use and held up by Strong legs that last a lifetime.",
