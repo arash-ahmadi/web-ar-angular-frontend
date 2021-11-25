@@ -14,10 +14,10 @@
           max-camera-orbit="auto 100deg auto" shadow-intensity="1" camera-controls src={{product.src}}
           ios-src={{product.ios_src}} alt="" poster={{product.product_image_url}} loading="lazy"
           style=" width: 600px; height: 450px; position: relative;">
-          <button class="btn btn-sm btn-outline-primary" style="position: absolute;bottom: 0%;"
+          <!-- <button class="btn btn-sm btn-outline-primary" style="position: absolute;bottom: 0%;"
           (click)="open(content)">
           View in AR
-          </button>
+          </button> -->
           <!-- <button class="btn-dark" (click)="openPopup()" style="vertical-align: middle;">
            
             <div> View in AR</div>
@@ -39,33 +39,39 @@
               <span class="review-link">10 Review(s) |
                 <span style="cursor: pointer">Add your review</span></span>
             </div>
+
+            <div class="category">
+              {{ product.category }}
+              </div>
+
             <div class="price-container">
               <h2 class="price">{{ product.price | currency: "USD" }}</h2>
               <span class="availability"></span>
             </div>
             <div class="description">{{ product.description }}</div>
             <div class="cta">
-              <div class="add-to-cart">
+              <!-- <div class="add-to-cart">
                 <span>QTY:</span>
   
                 <nz-input-number [(ngModel)]="quantity"></nz-input-number>
                 <button nz-button nzType="primary" (click)="addToCart()" [disabled]="quantity === 0">
                   Add to cart
                 </button>
-                <!-- <button type="button" nz-button nzType="primary" data-toggle="modal" data-target="#exampleModalCenter" (click)="openPopup()">
+                <button type="button" nz-button nzType="primary" data-toggle="modal" data-target="#exampleModalCenter" (click)="openPopup()">
                   View In Mobile
-                </button> -->
-              </div>
-              <div class="category">
-                <span>Category: </span> {{ product.category }}
-              </div>
-              <div class="social-links">
+                </button>
+              </div> -->
+              <button class="btn btn-sm btn-outline-primary" 
+              (click)="open(content)">
+              View in AR
+              </button> 
+              <!-- <div class="social-links">
                 <span>Share: </span>
                 <i nz-icon nzType="facebook" nzTheme="outline"></i>
                 <i nz-icon nzType="twitter" nzTheme="outline"></i>
                 <i nz-icon nzType="google-plus" nzTheme="outline"></i>
                 <i nz-icon nzType="mail" nzTheme="outline"></i>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
