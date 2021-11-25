@@ -27,17 +27,17 @@ export class HomeComponent implements OnInit {
   categories: any[] = [
     {
       name: 'Furniture',
-      img: '../../assets/furniture_industry.jpg',
+      img: 'https://tulanedigcontent.blob.core.windows.net/web-ar-demo/icons/furniture_industry.jpg',
       industry: 'furniture'
     },
     {
       name: 'Fashion',
-      img: '../../assets/fashion_industry.jpg',
+      img: 'https://tulanedigcontent.blob.core.windows.net/web-ar-demo/icons/fashion_industry.jpg',
       industry: 'fashion'
     },
     {
       name: 'Machinery',
-      img: '../../assets/machinery_industry.jpg',
+      img: 'https://tulanedigcontent.blob.core.windows.net/web-ar-demo/icons/machinery_industry.jpg',
       industry: 'machinery'
     }
     
@@ -256,7 +256,6 @@ industrySelect(industry,category){
   this.industry = industry;
   this.category = category;
   this.getCategoriesByIndustry(industry)
- 
   this.load()
 }
 categorySelect(category){

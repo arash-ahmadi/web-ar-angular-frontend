@@ -45,6 +45,7 @@ export class ProductComponent implements OnInit {
   showcaseImages: any[] = [];
   loading = false;
   qrResult: string;
+  screenWidth:any;
   private sub;
   displayStyle = "none";
   closeResult = '';
@@ -57,6 +58,7 @@ export class ProductComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
+    this.screenWidth = window.innerWidth;
     this.loading = true;
     // this._route.paramMap
     //   .pipe(
