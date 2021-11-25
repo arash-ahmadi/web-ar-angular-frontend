@@ -4,7 +4,7 @@
       <h2>Industries</h2>
     </div> -->
     <div class="categories__list">
-      <swiper  [zoom]="false" [slidesPerView]="(screenWidth > 1200) ? 3 : 1" [spaceBetween]="30" [pagination]="true"
+      <swiper  [zoom]="false" [slidesPerView]="(screenWidth > 1200) ? 4 : 1" [spaceBetween]="5" [pagination]="true"
         [loop]="false">
          <ng-template swiperSlide *ngFor="let c of categories">
           <a (click)="industrySelect(c.name,'all')">

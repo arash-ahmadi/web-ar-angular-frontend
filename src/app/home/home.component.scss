@@ -135,7 +135,7 @@
   .home-container {
     .categories {
       max-width: calc(700px + 72px); // width of cards + all padding + gap
-      padding: 36px 24px;
+      padding: 0px 24px;
       &__list {
         .category-card {
           // height: 400px;
@@ -164,7 +164,7 @@
   .home-container {
     .categories {
       max-width: calc(1050px + 96px); // width of cards + all padding + gap
-      padding: 36px 24px;
+      padding: 0px 24px;
       &__list {
         .category-card {
           width: 348px;

@@ -124,6 +124,8 @@
   }
 }
 
+
+
 .nav-container {
   padding: 16px;
   background-color: #eee;
@@ -181,7 +183,7 @@
           cursor: pointer;
           transition: background-color 0.2s;
           &:hover {
-            background-color: rgb(236, 236, 236);
+            background-color: rgb(161, 161, 161);
           }
         }
       }
@@ -204,6 +206,11 @@
       }
     }
   }
+}
+
+.ant-btn-circle.ant-btn-lg:hover{
+  background-color: rgb(161, 161, 161);
+
 }
 
 .side-menu.show {

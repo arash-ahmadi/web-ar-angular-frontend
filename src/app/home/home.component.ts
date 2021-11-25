@@ -39,6 +39,10 @@ export class HomeComponent implements OnInit {
       name: 'Machinery',
       img: 'https://arasset.azureedge.net/webar/icons/machinery_industry.jpg',
       industry: 'machinery'
+    },
+    {
+      name: 'Food',
+      img: 'https://webarmodels.blob.core.windows.net/webar/food_industry.jpg'
     }
     
   ];
@@ -59,7 +63,7 @@ export class HomeComponent implements OnInit {
     {
       name: 'Womenswear',
       img: 'https://arasset.azureedge.net/webar/icons/womenswear.png'
-    },
+    }
   ]
 
   subCategoriesFurniture: any[] = [
@@ -102,14 +106,6 @@ export class HomeComponent implements OnInit {
   {
       name: 'Hearth',
       img: 'https://arasset.azureedge.net/webar/icons/hearth.png'
-  },
-  {
-      name: 'Living Room',
-      img: 'https://arasset.azureedge.net/webar/icons/living-room.png'
-  },
-  {
-      name: 'Mood Board',
-      img: 'https://arasset.azureedge.net/webar/icons/mood-board.png'
   }
   ]
 

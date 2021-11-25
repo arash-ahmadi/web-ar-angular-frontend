@@ -7,11 +7,12 @@
       (click)="toggleMenu()"
       nzShape="circle"
       nzSize="large"
+      style="vertical-align: middle;"
     >
       <i
         nz-icon
         nzType="menu"
-        [ngStyle]="{ 'font-size': '1.25rem', 'padding-top': '6px' }"
+        [ngStyle]="{ 'font-size': '1.25rem', 'vertical-align': 'middle', 'margin-bottom': '5px'}"
       ></i>
     </button>
   </div>
@@ -27,11 +28,12 @@
         nzPlacement="right"
         nzShape="circle"
         nzSize="large"
+        style="vertical-align: middle;"
       >
         <i
           nz-icon
           nzType="shopping-cart"
-          [ngStyle]="{ fontSize: '24px', paddingTop: '3px' }"
+          [ngStyle]="{ fontSize: '24px', 'margin-bottom': '5px' }"
         ></i>
       </button>
       <nz-dropdown-menu #menu="nzDropdownMenu">
