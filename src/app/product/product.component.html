@@ -24,7 +24,7 @@
         <div class="col-md-6">
           <img *ngIf="false" src={{qrResult}} />
           <div class="product-container__details" style="float: center; ">
-            <h2 class="title">{{ product.name }}</h2>
+            <h2 class="title" style="font-weight: bold;">{{ product.name }}</h2>
             <div class="reviews">
               <div class="rating">
                 <i nz-icon nzType="star" nzTheme="fill"></i>
@@ -45,7 +45,7 @@
             </div>
             <div class="description">{{ product.description }}</div>
             <button class="btn btn-sm btn-outline-primary" 
-              (click)="open(content)">
+              (click)="open(content)" *ngIf="screenWidth > 1200">
               View in AR
               </button> 
           </div>
