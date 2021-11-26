@@ -117,6 +117,29 @@ export class HomeComponent implements OnInit {
       }
     
   ]
+  subCategoriesFood: any[] = [
+    
+    {
+      name: 'Meal',
+      img: 'https://arasset.azureedge.net/webar/icons/meal.png'
+    },
+    {
+      name: 'Bakery',
+      img: 'https://arasset.azureedge.net/webar/icons/bakery.png'
+    },
+    {
+      name: 'Barbeque',
+      img: 'https://arasset.azureedge.net/webar/icons/barbeque.png'
+    },
+    {
+      name: 'Pizza',
+      img: 'https://arasset.azureedge.net/webar/icons/pizza.png'
+    },
+    {
+      name: 'Ramen',
+      img: 'https://arasset.azureedge.net/webar/icons/ramen.png'
+    }
+]
   
   loading = false;
   productPageCounter = 1;
@@ -247,6 +270,9 @@ getCategoriesByIndustry(industry){
     }
     else if (industry =="Machinery"){
       this.subCategories=this.subCategoriesMachinery;
+    }
+    else if (industry =="Food"){
+      this.subCategories=this.subCategoriesFood;
     }
 }
 industrySelect(industry,category){
