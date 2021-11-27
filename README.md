@@ -1,6 +1,14 @@
-# Client
+# Web AR Framework Frontend
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.6.
+
+### Installation
+
+Install the dependencies and devDependencies and start the server.
+```
+npm install
+```
+* [Clone the backend repo](https://github.com/shaddeykatri/business-and-retail-web-ar)
 
 ## Development server
 
